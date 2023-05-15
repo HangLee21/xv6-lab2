@@ -297,6 +297,9 @@ fork(void)
     release(&np->lock);
     return -1;
   }
+  // copy trace_mask to the child
+  np->trace_mask = p->trace_mask;
+
   np->sz = p->sz;
 
   // copy saved user registers.
@@ -315,8 +318,6 @@ fork(void)
 
   pid = np->pid;
   
-  // copy trace_mask to the child
-  np->trace_mask = p->trace_mask;
 
   release(&np->lock);
 

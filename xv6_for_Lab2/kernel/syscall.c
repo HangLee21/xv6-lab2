@@ -148,6 +148,7 @@ syscall(void)
   if(num > 0 && num < NELEM(syscalls) && syscalls[num]) {
     // Use num to lookup the system call function for num, call it,
     // and store its return value in p->trapframe->a0
+    // 不能交换顺序
     p->trapframe->a0 = syscalls[num]();
     int trace_mask = p->trace_mask;
     if((trace_mask >> num) & 1){
