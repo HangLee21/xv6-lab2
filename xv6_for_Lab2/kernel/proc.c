@@ -692,7 +692,7 @@ procdump(void)
 // copy fuction allocproc
 // for sysinfo
 uint64
-acquire_nproc(void){
+acquire_nproc(){
   struct proc *p;
   int cnt = 0;
 

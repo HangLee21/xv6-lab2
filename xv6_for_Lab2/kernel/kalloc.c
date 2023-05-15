@@ -84,7 +84,7 @@ kalloc(void)
 // for sysinfo
 // copy from function kalloc
 uint64 
-acquire_fremem(void){
+acquire_fremem(){
   struct run *r; // list for memory
 
   uint64 cnt = 0;
