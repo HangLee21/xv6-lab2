@@ -109,7 +109,7 @@ sys_trace(void){
 // sysinfo
 uint64
 sys_sysinfo(void){
-  struct sysinfo info;
+  sysinfo info;
   uint64 addr; // user pointer to struct stat
   struct proc *p = myproc();
   info.freemem = acquire_fremem();
