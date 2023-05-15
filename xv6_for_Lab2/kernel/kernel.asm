@@ -2111,6 +2111,11 @@ cpuid()
     80000e2c:	1141                	addi	sp,sp,-16
     80000e2e:	e422                	sd	s0,8(sp)
     80000e30:	0800                	addi	s0,sp,16
+// this core's hartid (core number), the index into cpus[].
+static inline uint64
+r_tp()
+{
+  uint64 x;
   asm volatile("mv %0, tp" : "=r" (x) );
     80000e32:	8512                	mv	a0,tp
   int id = r_tp();
@@ -11603,6 +11608,11 @@ timerinit()
     8000580c:	f14027f3          	csrr	a5,mhartid
   w_tp(id);
     80005810:	2781                	sext.w	a5,a5
+}
+
+static inline void 
+w_tp(uint64 x)
+{
   asm volatile("mv tp, %0" : : "r" (x));
     80005812:	823e                	mv	tp,a5
   asm volatile("mret");
