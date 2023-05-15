@@ -5,6 +5,7 @@
 #include "memlayout.h"
 #include "spinlock.h"
 #include "proc.h"
+#include "sysinfo.h"
 
 uint64 acquire_fremem(void);
 uint64 acquire_nproc(void);
@@ -109,7 +110,7 @@ sys_trace(void){
 // sysinfo
 uint64
 sys_sysinfo(void){
-  sysinfo info;
+  struct sysinfo info;
   uint64 addr; // user pointer to struct stat
   struct proc *p = myproc();
   info.freemem = acquire_fremem();
