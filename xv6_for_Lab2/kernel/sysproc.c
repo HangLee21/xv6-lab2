@@ -6,6 +6,9 @@
 #include "spinlock.h"
 #include "proc.h"
 
+uint64 acquire_fremem(void);
+uint64 acquire_nproc(void);
+
 uint64
 sys_exit(void)
 {
@@ -106,6 +109,17 @@ sys_trace(void){
 // sysinfo
 uint64
 sys_sysinfo(void){
-  printf("hello sysinfo");
+  struct sysinfo info;
+  uint64 addr; // user pointer to struct stat
+  struct proc *p = myproc();
+  info.freemem = acquire_fremem();
+  info.nproc = acquire_nproc();
+
+  argaddr(1, &addr);
+
+  if(copyout(p->pagetable, addr, (char *)&addr, sizeof(addr)) < 0)
+      return -1;
+  printf("hello sysinfo\n");
   return 0;
 }
+

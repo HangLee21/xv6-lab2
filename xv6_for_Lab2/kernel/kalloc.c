@@ -81,4 +81,21 @@ kalloc(void)
   return (void*)r;
 }
 
+// for sysinfo
+// copy from function kalloc
+uint64 
+acquire_fremem(void){
+  struct run *r; // list for memory
+
+  uint64 cnt = 0;
+  acquire(&kmem.lock);
+  r = kmem.freelist;
+  while(r){
+    r = r->next;
+    cnt++;
+  }
+  release(&kmem.lock);
+  return cnt * PGSIZE;
+}
+
 

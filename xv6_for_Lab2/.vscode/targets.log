@@ -15,7 +15,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon May 15 14:05:39 2023
+# Make data base, printed on Mon May 15 19:58:30 2023
 
 # Variables
 
@@ -90,7 +90,7 @@ OBJS = $K/entry.o $K/kalloc.o $K/string.o $K/main.o $K/vm.o $K/proc.o $K/swtch.o
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_CWD = C:\WINDOWS\system32
+VSCODE_CWD = D:\Desktop\xv6-lab2\xv6-lab2\xv6_for_Lab2
 # makefile (from 'Makefile', line 279)
 GDBPORT = $(shell expr `id -u` % 5000 + 25000)
 # makefile (from 'Makefile', line 35)
@@ -98,10 +98,7 @@ OBJS_KCSAN = $K/start.o $K/console.o $K/printf.o $K/uart.o $K/spinlock.o
 # default
 MAKE_HOST := x86_64-w64-mingw32
 # environment
-PATH = D:\VMBox\bin\;D:\jdk17\bin;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Java\jdk-19\jre\bin;C:\Program Files\Common Files\Oracle\Java\javapath;D:\IDEA\IntelliJ IDEA Community Edition 2022.2.2\bin;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Git\cmd;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\dotnet\;D:\cmake\bin;D:\Q\Tools\mingw530_32\bin;D:\Q\5.9\mingw53_32\bin;D:\Q\install\x64\mingw\bin;D:\IDEA\apache-maven-3.8.6\bin;D:\OpenCV\opencv\build\bin;D:\OpenCV\opencv\build\x64\vc15\bin;D:\WeChatProgram\΢��web�����߹���\dll;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\Syste 
-make.exe: *** No rule to make target 'all'.  Stop.
-
-m32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Go\bin;D:\Desktop\GoProject\bin;D:\OpenCV\opencv\build\x64\vc15\bin;C:\Users\assass'i'nation\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;C:\Users\assass'i'nation\AppData\Local\GitHubDesktop\bin;C:\Users\assass'i'nation\.dotnet\tools;D:\Q\5.9\msvc2017_64\bin;D:\mingw64\bin;D:\prime\modelsim_ase\win32aloem;D:\PyCharm\PyCharm Community Edition 2022.2.3\bin;D:\CLion\CLion 2022.2.4\bin;
+PATH = D:\VMBox\bin\;D:\jdk17\bin;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Java\jdk-19\jre\bin;C:\Program Files\Common Files\Oracle\Java\javapath;D:\IDEA\IntelliJ IDEA Community Edition 2022.2.2\bin;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Git\cmd;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\dotnet\;D:\cmake\bin;D:\Q\Tools\mingw530_32\bin;D:\Q\5.9\mingw53_32\bin;D:\Q\install\x64\mingw\bin;D:\IDEA\apache-maven-3.8.6\bin;D:\OpenCV\opencv\build\bin;D:\OpenCV\opencv\build\x64\vc15\bin;D:\WeChatProgram\΢��web�����߹���\dll;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Go\bin;D:\Desktop\GoProject\bin;D:\OpenCV\opencv\build\x64\vc15\bin;C:\Users\assass'i'nation\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;C:\Users\assass'i'nation\AppData\Local\GitHubDesktop\bin;C:\Users\assass'i'nation\.dotnet\tools;D:\Q\5.9\msvc2017_64\bin;D:\mingw64\bin;D:\prime\modelsim_ase\win32aloem;D:\PyCharm\PyCharm Community Edition 2022.2.3\bin;D:\CLion\CLion 2022.2.4\bin;
 # environment
 VS110COMNTOOLS = D:\vs2012\Common7\Tools\
 # makefile (from 'Makefile', line 85)
@@ -139,7 +136,7 @@ ULIB = $U/ulib.o $U/usys.o $U/printf.o $U/umalloc.o
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_10848_CTYJZJNTLCCSKVAI
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_5928_KTJSBEOSNJSUDRWG
 # environment
 COMPUTERNAME = LAPTOP-B3AJPDF2
 # environment
@@ -285,7 +282,7 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 10848
+VSCODE_PID = 5928
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-B3AJPDF2
 # variable set hash-table stats:
@@ -299,9 +296,9 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-B3AJPDF2
 
 # user (key d:/Desktop/xv6-lab2/xv6-lab2/xv6_for_Lab2/user, mtime 1684122923): 125 files, no impossibilities.
 # kernel (key d:/Desktop/xv6-lab2/xv6-lab2/xv6_for_Lab2/kernel, mtime 1684122923): 101 files, no impossibilities.
-# . (key d:/Desktop/xv6-lab2/xv6-lab2/xv6_for_Lab2, mtime 1684123056): 19 files, no impossibilities.
+# . (key d:/Desktop/xv6-lab2/xv6-lab2/xv6_for_Lab2, mtime 1684151887): 20 files, no impossibilities.
 
-# 245 files, no impossibilities in 3 directories.
+# 246 files, no impossibilities in 3 directories.
 
 # Implicit Rules
 
@@ -1731,12 +1728,14 @@ kernel/string.c:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 440 / storage = 4733 B / avg = 10 B
-# current buf: size = 8162 B / used = 4733 B / count = 440 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 441 / storage = 4753 B / avg = 10 B
+# current buf: size = 8162 B / used = 4753 B / count = 441 / avg = 10 B
 
-# strcache performance: lookups = 919 / hit rate = 52%
+# strcache performance: lookups = 920 / hit rate = 52%
 # hash-table stats:
-# Load=440/8192=5%, Rehash=0, Collisions=45/919=5%
-# Finished Make data base on Mon May 15 14:05:39 2023
+# Load=441/8192=5%, Rehash=0, Collisions=45/920=5%
+# Finished Make data base on Mon May 15 19:58:30 2023
 
  
+make.exe: *** No rule to make target 'all'.  Stop.
+
