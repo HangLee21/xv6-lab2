@@ -687,3 +687,5 @@ procdump(void)
     printf("\n");
   }
 }
+
+// sys_info

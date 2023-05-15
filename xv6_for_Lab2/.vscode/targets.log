@@ -15,7 +15,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon May 15 11:57:44 2023
+# Make data base, printed on Mon May 15 14:05:39 2023
 
 # Variables
 
@@ -86,10 +86,7 @@ AS = $(TOOLPREFIX)gas
 # environment
 PROGRAMW6432 = C:\Program Files
 # makefile (from 'Makefile', line 11)
-OBJS = $K/entry.o $K/kalloc.o $K/string.o $K/main.o $K/vm.o $K/proc.o $K/swtch.o $K/trampoline.o $K/trap.o $K/syscall.o $K/sysproc.o $K/bio.o $K/fs.o $K/log.o $K/sleepl 
-make.exe: *** No rule to make target 'all'.  Stop.
-
-ock.o $K/file.o $K/pipe.o $K/exec.o $K/sysfile.o $K/kernelvec.o $K/plic.o $K/virtio_disk.o
+OBJS = $K/entry.o $K/kalloc.o $K/string.o $K/main.o $K/vm.o $K/proc.o $K/swtch.o $K/trampoline.o $K/trap.o $K/syscall.o $K/sysproc.o $K/bio.o $K/fs.o $K/log.o $K/sleeplock.o $K/file.o $K/pipe.o $K/exec.o $K/sysfile.o $K/kernelvec.o $K/plic.o $K/virtio_disk.o
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
@@ -101,7 +98,10 @@ OBJS_KCSAN = $K/start.o $K/console.o $K/printf.o $K/uart.o $K/spinlock.o
 # default
 MAKE_HOST := x86_64-w64-mingw32
 # environment
-PATH = D:\VMBox\bin\;D:\jdk17\bin;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Java\jdk-19\jre\bin;C:\Program Files\Common Files\Oracle\Java\javapath;D:\IDEA\IntelliJ IDEA Community Edition 2022.2.2\bin;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Git\cmd;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\dotnet\;D:\cmake\bin;D:\Q\Tools\mingw530_32\bin;D:\Q\5.9\mingw53_32\bin;D:\Q\install\x64\mingw\bin;D:\IDEA\apache-maven-3.8.6\bin;D:\OpenCV\opencv\build\bin;D:\OpenCV\opencv\build\x64\vc15\bin;D:\WeChatProgram\΢��web�����߹���\dll;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Go\bin;D:\Desktop\GoProject\bin;D:\OpenCV\opencv\build\x64\vc15\bin;C:\Users\assass'i'nation\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;C:\Users\assass'i'nation\AppData\Local\GitHubDesktop\bin;C:\Users\assass'i'nation\.dotnet\tools;D:\Q\5.9\msvc2017_64\bin;D:\mingw64\bin;D:\prime\modelsim_ase\win32aloem;D:\PyCharm\PyCharm Community Edition 2022.2.3\bin;D:\CLion\CLion 2022.2.4\bin;
+PATH = D:\VMBox\bin\;D:\jdk17\bin;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Java\jdk-19\jre\bin;C:\Program Files\Common Files\Oracle\Java\javapath;D:\IDEA\IntelliJ IDEA Community Edition 2022.2.2\bin;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Git\cmd;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\dotnet\;D:\cmake\bin;D:\Q\Tools\mingw530_32\bin;D:\Q\5.9\mingw53_32\bin;D:\Q\install\x64\mingw\bin;D:\IDEA\apache-maven-3.8.6\bin;D:\OpenCV\opencv\build\bin;D:\OpenCV\opencv\build\x64\vc15\bin;D:\WeChatProgram\΢��web�����߹���\dll;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\Syste 
+make.exe: *** No rule to make target 'all'.  Stop.
+
+m32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Go\bin;D:\Desktop\GoProject\bin;D:\OpenCV\opencv\build\x64\vc15\bin;C:\Users\assass'i'nation\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;C:\Users\assass'i'nation\AppData\Local\GitHubDesktop\bin;C:\Users\assass'i'nation\.dotnet\tools;D:\Q\5.9\msvc2017_64\bin;D:\mingw64\bin;D:\prime\modelsim_ase\win32aloem;D:\PyCharm\PyCharm Community Edition 2022.2.3\bin;D:\CLion\CLion 2022.2.4\bin;
 # environment
 VS110COMNTOOLS = D:\vs2012\Common7\Tools\
 # makefile (from 'Makefile', line 85)
@@ -139,9 +139,7 @@ ULIB = $U/ulib.o $U/usys.o $U/printf.o $U/umalloc.o
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_2148_NNJGSBXVQRTKTBNH
-# makefile (from 'Makefile', line 87)
-OBJDUMP = $(TOOLPREFIX)objdump
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_10848_CTYJZJNTLCCSKVAI
 # environment
 COMPUTERNAME = LAPTOP-B3AJPDF2
 # environment
@@ -240,8 +238,8 @@ MFLAGS = -pqrR
 SYSTEMROOT = C:\WINDOWS
 # automatic
 +D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
-# environment
-VSCODE_L10N_BUNDLE_LOCATION = 
+# makefile (from 'Makefile', line 87)
+OBJDUMP = $(TOOLPREFIX)objdump
 # automatic
 +F = $(notdir $+)
 # environment
@@ -287,11 +285,11 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 2148
+VSCODE_PID = 10848
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-B3AJPDF2
 # variable set hash-table stats:
-# Load=134/1024=13%, Rehash=0, Collisions=36/482=7%
+# Load=133/1024=13%, Rehash=0, Collisions=35/481=7%
 
 # Pattern-specific Variable Values
 
@@ -1739,6 +1737,6 @@ kernel/string.c:
 # strcache performance: lookups = 919 / hit rate = 52%
 # hash-table stats:
 # Load=440/8192=5%, Rehash=0, Collisions=45/919=5%
-# Finished Make data base on Mon May 15 11:57:44 2023
+# Finished Make data base on Mon May 15 14:05:39 2023
 
  

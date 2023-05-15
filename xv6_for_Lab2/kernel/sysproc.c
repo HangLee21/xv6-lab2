@@ -102,3 +102,10 @@ sys_trace(void){
   p->trace_mask = mask;
   return 0;
 }
+
+// sysinfo
+uint64
+sys_sysinfo(void){
+  printf("hello sysinfo");
+  return 0;
+}
