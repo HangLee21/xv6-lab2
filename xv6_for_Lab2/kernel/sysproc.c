@@ -118,9 +118,8 @@ sys_sysinfo(void){
 
   argaddr(1, &addr);
 
-  if(copyout(p->pagetable, addr, (char *)&addr, sizeof(addr)) < 0)
+  if(copyout(p->pagetable, addr, (char *)&info, sizeof(info)) < 0)
       return -1;
-  printf("hello sysinfo\n");
   return 0;
 }
 
