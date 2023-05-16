@@ -15,7 +15,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon May 15 19:58:30 2023
+# Make data base, printed on Tue May 16 08:23:19 2023
 
 # Variables
 
@@ -78,6 +78,8 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # makefile (from 'user/wc.d', line 1)
 MAKEFILE_LIST :=  Makefile conf/lab.mk kernel/start.d kernel/plic.d kernel/kalloc.d kernel/vm.d kernel/file.d kernel/console.d kernel/spinlock.d kernel/main.d kernel/virtio_disk.d kernel/sleeplock.d kernel/bio.d kernel/pipe.d kernel/log.d kernel/sysfile.d kernel/uart.d kernel/trap.d kernel/printf.d kernel/syscall.d kernel/exec.d kernel/string.d kernel/sysproc.d kernel/fs.d kernel/proc.d user/rm.d user/zombie.d user/cat.d user/stressfs.d user/ln.d user/trace.d user/initcode.d user/grep.d user/forktest.d user/echo.d user/umalloc.d user/mkdir.d user/ls.d user/kill.d user/usys.d user/grind.d user/init.d user/printf.d user/ulib.d user/usertests.d user/sh.d user/wc.d
 # environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
 TMP = C:\Users\ASSASS~1\AppData\Local\Temp
 # makefile (from 'Makefile', line 281)
 QEMUGDB = $(shell if $(QEMU) -help | grep -q '^-gdb'; then echo "-gdb tcp::$(GDBPORT)"; else echo "-s -p $(GDBPORT)"; fi)
@@ -117,7 +119,10 @@ LIBRARY_PATH = D:\mingw64\bin
 USERPROFILE = C:\Users\assass'i'nation
 # makefile (from 'Makefile', line 285)
 CPUS := 3
-# environment
+#  
+make.exe: *** No rule to make target 'all'.  Stop.
+
+environment
 ALLUSERSPROFILE = C:\ProgramData
 # environment
 GOPATH = D:\Desktop\GoProject
@@ -136,7 +141,7 @@ ULIB = $U/ulib.o $U/usys.o $U/printf.o $U/umalloc.o
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_5928_KTJSBEOSNJSUDRWG
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_7592_DTPYKJSHBDDDHPZH
 # environment
 COMPUTERNAME = LAPTOP-B3AJPDF2
 # environment
@@ -282,11 +287,13 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 5928
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 7592
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-B3AJPDF2
 # variable set hash-table stats:
-# Load=133/1024=13%, Rehash=0, Collisions=35/481=7%
+# Load=135/1024=13%, Rehash=0, Collisions=35/483=7%
 
 # Pattern-specific Variable Values
 
@@ -1734,8 +1741,6 @@ kernel/string.c:
 # strcache performance: lookups = 920 / hit rate = 52%
 # hash-table stats:
 # Load=441/8192=5%, Rehash=0, Collisions=45/920=5%
-# Finished Make data base on Mon May 15 19:58:30 2023
+# Finished Make data base on Tue May 16 08:23:19 2023
 
  
-make.exe: *** No rule to make target 'all'.  Stop.
-

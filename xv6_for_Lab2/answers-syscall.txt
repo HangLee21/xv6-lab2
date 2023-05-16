@@ -1,0 +1,17 @@
+1.usertrap() called syscall.
+2.p->trapframe->a7 is 7, which represents the number of SYS_exec.
+3.the result is $1 = 0x22 => 00100010
+  the 8th position represents the cpu mode.
+  1: from kernel
+  0: from user
+  this cpu's previous mode is user mode.
+4.the result is 
+  scause 0x000000000000000d
+  sepc=0x000000008000215a 
+  stval=0x0000000000000000
+  panic: kerneltrap
+  the register s2 corresponds to the varialable num
+panic: kerneltrap
+5.When the virtual address map in 0, it doesn't map int any kernel address.
+  The all address we used in program is virtual address,so we can't get the value.
+6.name:initcode\000\000\000\000\000\000\000    pid: 1
