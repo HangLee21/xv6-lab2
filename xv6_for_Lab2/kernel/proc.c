@@ -284,12 +284,13 @@ fork(void)
   struct proc *np;
   struct proc *p = myproc();
   
-
-
   // Allocate process.
   if((np = allocproc()) == 0){
     return -1;
   }
+
+  // copy trace_mask to the child
+  np->trace_mask = p->trace_mask;
 
   // Copy user memory from parent to child.
   if(uvmcopy(p->pagetable, np->pagetable, p->sz) < 0){
@@ -297,8 +298,6 @@ fork(void)
     release(&np->lock);
     return -1;
   }
-  // copy trace_mask to the child
-  np->trace_mask = p->trace_mask;
 
   np->sz = p->sz;
 
