@@ -15,7 +15,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue May 16 08:23:19 2023
+# Make data base, printed on Tue May 16 15:22:57 2023
 
 # Variables
 
@@ -78,8 +78,6 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # makefile (from 'user/wc.d', line 1)
 MAKEFILE_LIST :=  Makefile conf/lab.mk kernel/start.d kernel/plic.d kernel/kalloc.d kernel/vm.d kernel/file.d kernel/console.d kernel/spinlock.d kernel/main.d kernel/virtio_disk.d kernel/sleeplock.d kernel/bio.d kernel/pipe.d kernel/log.d kernel/sysfile.d kernel/uart.d kernel/trap.d kernel/printf.d kernel/syscall.d kernel/exec.d kernel/string.d kernel/sysproc.d kernel/fs.d kernel/proc.d user/rm.d user/zombie.d user/cat.d user/stressfs.d user/ln.d user/trace.d user/initcode.d user/grep.d user/forktest.d user/echo.d user/umalloc.d user/mkdir.d user/ls.d user/kill.d user/usys.d user/grind.d user/init.d user/printf.d user/ulib.d user/usertests.d user/sh.d user/wc.d
 # environment
-FPS_BROWSER_USER_PROFILE_STRING = Default
-# environment
 TMP = C:\Users\ASSASS~1\AppData\Local\Temp
 # makefile (from 'Makefile', line 281)
 QEMUGDB = $(shell if $(QEMU) -help | grep -q '^-gdb'; then echo "-gdb tcp::$(GDBPORT)"; else echo "-s -p $(GDBPORT)"; fi)
@@ -92,7 +90,7 @@ OBJS = $K/entry.o $K/kalloc.o $K/string.o $K/main.o $K/vm.o $K/proc.o $K/swtch.o
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_CWD = D:\Desktop\xv6-lab2\xv6-lab2\xv6_for_Lab2
+VSCODE_CWD = D:\Desktop\xv6-lab2\xv6-lab2\xv6_for_Lab2\kernel
 # makefile (from 'Makefile', line 279)
 GDBPORT = $(shell expr `id -u` % 5000 + 25000)
 # makefile (from 'Makefile', line 35)
@@ -100,7 +98,10 @@ OBJS_KCSAN = $K/start.o $K/console.o $K/printf.o $K/uart.o $K/spinlock.o
 # default
 MAKE_HOST := x86_64-w64-mingw32
 # environment
-PATH = D:\VMBox\bin\;D:\jdk17\bin;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Java\jdk-19\jre\bin;C:\Program Files\Common Files\Oracle\Java\javapath;D:\IDEA\IntelliJ IDEA Community Edition 2022.2.2\bin;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Git\cmd;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\dotnet\;D:\cmake\bin;D:\Q\Tools\mingw530_32\bin;D:\Q\5.9\mingw53_32\bin;D:\Q\install\x64\mingw\bin;D:\IDEA\apache-maven-3.8.6\bin;D:\OpenCV\opencv\build\bin;D:\OpenCV\opencv\build\x64\vc15\bin;D:\WeChatProgram\΢��web�����߹���\dll;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Go\bin;D:\Desktop\GoProject\bin;D:\OpenCV\opencv\build\x64\vc15\bin;C:\Users\assass'i'nation\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;C:\Users\assass'i'nation\AppData\Local\GitHubDesktop\bin;C:\Users\assass'i'nation\.dotnet\tools;D:\Q\5.9\msvc2017_64\bin;D:\mingw64\bin;D:\prime\modelsim_ase\win32aloem;D:\PyCharm\PyCharm Community Edition 2022.2.3\bin;D:\CLion\CLion 2022.2.4\bin;
+PATH = D:\VMBox\bin\;D:\jdk17\bin;C:\Program Files\Java\jdk-19\bin;C:\Program Files\Java\jdk-19\jre\bin;C:\Program Files\Common Files\Oracle\Java\javapath;D:\IDEA\IntelliJ IDEA Community Edition 2022.2.2\bin;C:\Program Files\Eclipse Foundation\jdk-8.0.302.8-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\Git\cmd;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\dotnet\;D:\cmake\bin;D:\Q\Tools\mingw530_32\bin;D:\Q\5.9\mingw53_32\bin;D:\Q\install\x64\mingw\bin;D:\IDEA\apache-maven-3.8.6\bin;D:\OpenCV\opencv\build\bin;D:\OpenCV\opencv\build\x64\vc15\bin;D:\WeChatProgram\΢��web�����߹���\dll;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Go\bin;D:\Desktop\GoProject\bin;D:\OpenCV\opencv\build\x64\vc15\bin;C:\Users\assass'i'nation\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;C:\Users\assass'i'nation\AppData\Local\GitHubDesktop\bin;C:\Users\assass'i'nation\.dotnet\tools;D:\Q\5.9\msvc2017_64\bin;D:\mingw64\bin;D:\prime\modelsim_ase\win32aloem;D:\PyCharm\PyCharm Community Edition 2022.2.3\bin;D:\CLion\CLion 2022.2.4\b 
+make.exe: *** No rule to make target 'all'.  Stop.
+
+in;
 # environment
 VS110COMNTOOLS = D:\vs2012\Common7\Tools\
 # makefile (from 'Makefile', line 85)
@@ -119,10 +120,7 @@ LIBRARY_PATH = D:\mingw64\bin
 USERPROFILE = C:\Users\assass'i'nation
 # makefile (from 'Makefile', line 285)
 CPUS := 3
-#  
-make.exe: *** No rule to make target 'all'.  Stop.
-
-environment
+# environment
 ALLUSERSPROFILE = C:\ProgramData
 # environment
 GOPATH = D:\Desktop\GoProject
@@ -141,7 +139,7 @@ ULIB = $U/ulib.o $U/usys.o $U/printf.o $U/umalloc.o
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_7592_DTPYKJSHBDDDHPZH
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_8892_OOFQHNTZNXKGEWCM
 # environment
 COMPUTERNAME = LAPTOP-B3AJPDF2
 # environment
@@ -287,13 +285,11 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
-# environment
-VSCODE_PID = 7592
+VSCODE_PID = 8892
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-B3AJPDF2
 # variable set hash-table stats:
-# Load=135/1024=13%, Rehash=0, Collisions=35/483=7%
+# Load=133/1024=13%, Rehash=0, Collisions=35/481=7%
 
 # Pattern-specific Variable Values
 
@@ -1741,6 +1737,6 @@ kernel/string.c:
 # strcache performance: lookups = 920 / hit rate = 52%
 # hash-table stats:
 # Load=441/8192=5%, Rehash=0, Collisions=45/920=5%
-# Finished Make data base on Tue May 16 08:23:19 2023
+# Finished Make data base on Tue May 16 15:22:57 2023
 
  

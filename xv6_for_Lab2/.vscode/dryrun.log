@@ -2,6 +2,7 @@ make.exe --dry-run --always-make --keep-going --print-directory
 make.exe: Entering directory 'd:/Desktop/xv6-lab2/xv6-lab2/xv6_for_Lab2'
  
 ��ʱ��Ӧ�� -i��
+
 ϵͳ�Ҳ���ָ����·����
 
 ϵͳ�Ҳ���ָ����·����
@@ -100,6 +101,7 @@ gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_ -DLAB_ -MD -
 
 'tr' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
 ���������ļ���
+
 ϵͳ�Ҳ���ָ����·����
 
 gcc -Wall -Werror -O -fno-omit-frame-pointer -ggdb -gdwarf-2 -DSOL_ -DLAB_ -MD -mcmodel=medany -ffreestanding -fno-common -nostdlib -mno-relax -I.   -c -o kernel/bio.o kernel/bio.c
