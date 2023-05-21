@@ -150,6 +150,7 @@ syscall(void)
     // and store its return value in p->trapframe->a0
     // 不能交换顺序
     p->trapframe->a0 = syscalls[num]();
+    // from the hint: trace(1 << SYS_fork)
     if(p->trace_mask & (1 << num)){
       printf("%d: syscall %s -> %d\n", p->pid, syscall_names[num - 1], p->trapframe->a0);
     }

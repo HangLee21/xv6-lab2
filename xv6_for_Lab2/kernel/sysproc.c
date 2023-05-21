@@ -111,13 +111,13 @@ sys_trace(void){
 uint64
 sys_sysinfo(void){
   struct sysinfo info;
-  uint64 addr; // user pointer to struct stat
+  uint64 addr;
   struct proc *p = myproc();
   info.freemem = acquire_fremem();
   info.nproc = acquire_nproc();
-
+  // 得到addr
   argaddr(0, &addr);
-
+  // 转移到用户态
   if(copyout(p->pagetable, addr, (char *)&info, sizeof(info)) < 0)
       return -1;
   return 0;

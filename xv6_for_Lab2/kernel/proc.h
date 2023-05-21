@@ -105,5 +105,6 @@ struct proc {
   struct inode *cwd;           // Current directory
   char name[16];               // Process name (debugging)
   
+  //argument in a new variable in the proc structure
   int trace_mask; 		// trace
 };

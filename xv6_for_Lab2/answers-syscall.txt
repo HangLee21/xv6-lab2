@@ -11,7 +11,6 @@
   stval=0x0000000000000000
   panic: kerneltrap
   the register s2 corresponds to the varialable num
-panic: kerneltrap
 5.When the virtual address map in 0, it doesn't map int any kernel address.
   The all address we used in program is virtual address,so we can't get the value.
 6.name:initcode\000\000\000\000\000\000\000    pid: 1
